@@ -1,0 +1,119 @@
+body
+{
+   
+     justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+       width: 100%;
+ 
+  background-position: center;
+  display: flex;
+  background-size: cover;
+
+
+ 
+
+}
+
+
+h1
+{
+
+  color:rgba(93, 226, 10, 0.962);
+  font-size: 2em;
+  
+}
+
+
+
+form
+{
+ 
+    height:14cm; 
+    width: 15cm;
+    border-radius: 25px;
+   background:transparent;
+   border: 2px solid ;
+   border-color: rgb(112, 176, 23);
+
+  
+ }
+input
+{ 
+  border: none;
+  border-bottom: 2px solid;
+  background: transparent;
+  outline: none;
+  font-size: 1.5em;
+
+   
+}
+input:hover
+{
+   height: 50px;
+
+}
+ 
+.div1
+ {
+    font-size: 19px;
+   padding-right:7cm;
+   font-size: 1.5em;  
+   color: rgb(46, 202, 22);
+  
+
+}
+
+button 
+{
+	
+   width: 370px;
+    height: 40px;
+    border-radius: 10px;
+     font-size: 1.5em;
+  background-color: rgb(202, 237, 153);
+  
+   
+
+}
+.div4 a
+{
+   padding-left:0cm;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: rgb(160, 245, 49);
+
+}
+.div4 a:hover
+{
+
+  color: red;
+
+}
+div4 a:visited
+{
+  color: aqua;
+}
+
+header
+{
+background-color: rgb(17,124,143);
+ padding: 20px;
+ width: 150%;
+
+
+}
+ button a{
+
+ text-decoration: none;
+ color: rgba(1, 19, 23, 0.749);
+
+
+}
+button:hover
+{
+
+  background-color: azure;
+  color: black;
+ 
+}
