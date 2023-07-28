@@ -13,14 +13,14 @@
 	       <div class="div1">
 		  	User name:
 	     	</div>
-	       <input type="text" required="name"size="30" placeholder="prakash@123"><br>
+	       <input type="text" required="name"size="30" ID="username"placeholder="USERNAME"><br>
 		<br><br>	
 
         <div class="div1">
           Password:<img id="password"> 
 
         </div>
-            <input type="password" required="password"size="30" placeholder="passworld"><br>
+            <input type="password" required="password"size="30" id="password"placeholder="passworld"><br>
         <br><br>
 
 
@@ -44,9 +44,24 @@
   </center>  
 </body>
 	<script>
-		function f1(){
-			alert("welcome to my page");
-			window.location.assign("prakash.html");
+		function f1()
+		{
+			var email=document.getElementById("username").value;
+                        var pass=document.getElementById("password").value;
+ 
+		        if(email == "prakash@123" && pass == "1234")
+		            { 
+		             
+		              alert("SUCESSSFULL YOU CAN VISITE PAGE !");
+		               window.location.assign('home.html');
+		               
+		             }
+		        else{
+		
+		          alert("un sucessful you not visite this page");
+		        }
+					
+			
 		}
 	</script>
 </html>
