@@ -7,24 +7,24 @@
 <body  class="b1"background="wallpaperflare.com_wallpaper%20(3).jpg">
   <br><br>  
 <center>
-<form><br>
+<form method="get"><br>
   <h1>Login Form</h1>
   <br>
 	       <div class="div1">
 		  	User name:
 	     	</div>
-	       <input type="text" required="name" name="user name" size="30" placeholder="prakash@123"><br>
+	       <input type="text" required="name"size="30" placeholder="prakash@123"><br>
 		<br><br>	
 
         <div class="div1">
           Password:<img id="password"> 
 
         </div>
-            <input type="password" required="password" name="password" size="30" placeholder="passworld"><br>
+            <input type="password" required="password"size="30" placeholder="passworld"><br>
         <br><br>
 
 
-       <A href="prakash.html"><button>LOG IN</button></A><br>
+       <A><button onclick="f1()">LOG IN</button></A><br>
         <A href=""><button>SIGN UP</button></A>
 
         
@@ -43,4 +43,10 @@
   
   </center>  
 </body>
+	<script>
+		function f1(){
+			alert("welcome to my page");
+			window.location.assign("prakash.html");
+		}
+	</script>
 </html>
